@@ -1,0 +1,13 @@
+1	/
+2	dev_tty0
+3	dev_tty1
+4	dev_tty2
+5	cmd.tar
+6	kernel.bin
+7	echo
+8	pwd
+9	hdldr.bin
+10	create
+11	cat
+12	delete
+13	ls

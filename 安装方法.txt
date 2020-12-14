@@ -1,0 +1,31 @@
+Linux虚拟机*1
+
+Step1:
+安装 模拟器  bochs
+（例如 sudo apt-get install bochs）
+
+Step2:
+OS1：进入./bootloader
+OS2：直接在根文件夹
+运行命令 bochs
+
+可能会因为bochs的版本问题导致虚拟机出现
+Bochs is exiting with the following message:
+[      ] bochsrc:34: 'keyboard_mapping' is deprecated - use 'keyboard' option instead.
+等错误，或许需要一点配置更改（因机而异）
+
+Step3：
+OS1：输出相关初始化信息后，可以直接输入命令。
+可支持命令：
+fuzu
+已知bug：键盘回退键还未完成功能。
+
+OS2：进入系统后 通过"alt + shift + f1/f2/f3"切换到对应的进程：显示页面（tty#0），tty#1，tty#2。
+可以支持的命令：
+ls ：显示文件夹下所有文件
+ls  文件名  ：显示指定文件名的信息
+create 文件名 内容：创建文件
+cat 文件名：查看文件内容
+delete 文件名：删除文件（可能存在一些bug）
+（有意思的探究：你甚至可以用delete命令删除delete命令的源代码，然后从此以后再也用不了delete命令了，类linux的特点）
+大家可以参考./command/下的命令，自行探索~
