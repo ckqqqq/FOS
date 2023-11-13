@@ -7,8 +7,10 @@
 References:
 
 Thirty Days to Make Your Own Operating System
+
 Implementation of a 64-bit Operating System
-orange's Implementation of an Operating System
+
+Orange's Implementation of an Operating System
 
 
 # 这是北京邮电大学软件工程专业 操作系统课程 开放作业（做了有很多加分）
